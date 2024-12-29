@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".camera">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click on the Camera to  capture Traffic violence "
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/btncamera_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:text="Camera"
+        android:layout_centerHorizontal="true"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/imageview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btncamera_id"
+        android:layout_marginTop="-132dp" />
+
+    <Button
+        android:id="@+id/btn_share"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btncamera_id"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="578dp"
+        android:text="share"
+
+        tools:ignore="MissingConstraints" />
+
+
+</RelativeLayout>
